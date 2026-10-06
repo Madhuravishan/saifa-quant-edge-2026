@@ -1,0 +1,17 @@
+data:
+  tickers: ['SPY', 'TLT', 'GLD']
+  start_date: '2012-01-01'
+  end_date: '2026-10-06'
+  train_end_date: '2023-12-31'
+  weights: {'SPY': 0.6, 'TLT': 0.3, 'GLD': 0.1}
+
+wavelet:
+  wavelet_type: 'db4'
+  level: 3  # Level 1 (Short: 2-4 days), Level 2 (Medium: 4-8 days), Level 3 (Long: 8-16 days)
+
+copula:
+  families: ['gaussian', 't', 'clayton']
+
+risk:
+  var_level: 0.99
+  n_simulations: 10000

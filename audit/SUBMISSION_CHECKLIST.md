@@ -1,0 +1,23 @@
+# Submission Checklist
+
+- [x] Official challenge addressed directly
+- [x] Portfolio (60/30/10 SPY/TLT/GLD) justified
+- [x] Strict train/test split (2012-2023 | 2024-2026) verified
+- [x] Wavelet method (MODWT db4 level 3) implemented and documented
+- [x] 3D and 2D Copulas (Student-t/Gaussian) implemented and selected via AIC
+- [x] Horizon-dependent tail dependence at 5% threshold calculated
+- [x] 99% VaR and ES calculated via Monte Carlo simulation
+- [x] Historical Simulation benchmark included
+- [x] Out-of-Sample backtest (Kupiec POF) performed on 692 test days
+- [x] Actionable Risk-Manager Recommendation generated (Cross-horizon dependence is critical)
+- [x] Final Report PDF generated (≤ 10 pages)
+- [x] `run_all.py` verified for one-command reproduction
+- [x] `README.md` updated with full professional research guide
+- [x] Unit tests passing (`pytest`)
+- [x] `requirements.txt` included and tested
+- [x] `AI_DISCLOSURE.md` present
+- [x] Streamlit dashboard (`app.py`) verified
+- [x] Static GitHub Pages deployment documented and configured
+- [x] `FINAL_NUMBERS.md` and presentation pitches created for the team
+- [x] ZIP file generated without `.git` or `venv` and size ≤ 25MB
+- [x] Final Audit marked as PASS

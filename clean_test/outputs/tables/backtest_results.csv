@@ -1,0 +1,3 @@
+Model,Violations,Expected Violations,POF p-value,ES Score (Actual - Forecast)
+Historical Benchmark,5,6.92,0.44026277046283613,-0.0015520992437218842
+Wavelet-Copula,0,6.92,1.0,
