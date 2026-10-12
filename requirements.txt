@@ -10,6 +10,7 @@ PyYAML>=6.0
 xhtml2pdf
 markdown
 streamlit
+plotly
 pytest
 
 tabulate
