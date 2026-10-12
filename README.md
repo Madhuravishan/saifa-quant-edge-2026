@@ -194,9 +194,12 @@ Therefore, the full interactive Streamlit dashboard requires a separate backend 
 ## Local Testing Instructions
 To test the interactive dashboard locally:
 1. Clone the repository: `git clone https://github.com/Madhuravishan/saifa-quant-edge-2026.git`
-2. Navigate into the project directory: `cd saifa-quant-edge-2026/quant_edge_project`
+2. Navigate into the project directory: `cd saifa-quant-edge-2026`
 3. Install the dependencies: `pip install -r requirements.txt`
 4. Run the Streamlit app: `streamlit run app.py`
+
+## Repository Structure Note
+The repository root is the canonical project path. The `clean_test/` directory is a clean validation fixture mirror used for reproducibility checks and should not be treated as the primary working copy.
 
 ## Environment Variables
 This application uses public Yahoo Finance data via the `yfinance` package and does not currently require any API keys, secrets, or environment variables to run the local dashboard or to deploy the static GitHub Pages landing page. (If backend deployment requires them in the future, configure them as repository secrets.)
